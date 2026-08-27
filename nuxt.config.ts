@@ -1,4 +1,5 @@
-const drizzleDrivers = ["pglite", "sqlite"]
+type DrizzleDriver = "pglite" | "sqlite" | "mysql" | "postgresql"
+const drizzleDrivers: DrizzleDriver[] = ["pglite"]
 
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
