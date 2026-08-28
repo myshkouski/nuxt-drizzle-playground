@@ -1,11 +1,12 @@
-const drizzleDrivers: Record<"pglite" | "sqlite" | "mysql" | "postgresql", boolean> = {
+const drizzleDrivers: Record<"pglite" | "postgresql" | "sqlite" | "d1" | "mysql", boolean> = {
   // both typings and runtime driver
   pglite: true,
+  d1: true,
   
   // typings only, driver is unavailable at runtime
+  postgresql: false,
   sqlite: false,
   mysql: false,
-  postgresql: false,
 }
 
 export default defineNuxtConfig({
