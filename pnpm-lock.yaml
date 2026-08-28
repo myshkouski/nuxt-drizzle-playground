@@ -14,15 +14,15 @@ dependencies:
   '@nuxt/ui':
     specifier: ^4.11.0
     version: 4.11.0(@tiptap/core@3.30.5)(@tiptap/extension-bubble-menu@3.30.5)(@tiptap/extension-code@3.30.5)(@tiptap/extension-collaboration@3.30.5)(@tiptap/extension-drag-handle-vue-3@3.30.5)(@tiptap/extension-drag-handle@3.30.5)(@tiptap/extension-floating-menu@3.30.5)(@tiptap/extension-horizontal-rule@3.30.5)(@tiptap/extension-image@3.30.5)(@tiptap/extension-mention@3.30.5)(@tiptap/extension-node-range@3.30.5)(@tiptap/extension-placeholder@3.30.5)(@tiptap/markdown@3.30.5)(@tiptap/pm@3.30.5)(@tiptap/starter-kit@3.30.5)(@tiptap/suggestion@3.30.5)(@tiptap/vue-3@3.30.5)(embla-carousel@8.6.0)(rolldown@1.2.6)(tailwindcss@4.3.3)(typescript@7.0.2)(vite@8.2.2)(vue-router@5.3.0)(vue@3.5.42)
-  nitro-drizzle:
-    specifier: 0.3.0-beta.6
-    version: 0.3.0-beta.6(@electric-sql/pglite@0.5.8)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2)(h3@1.15.11)(rolldown@1.2.6)(srvx@0.12.7)(vite@8.2.2)
+  consola:
+    specifier: ^3.4.2
+    version: 3.4.2
   nuxt:
     specifier: ^4.5.2
     version: 4.5.2(@electric-sql/pglite@0.5.8)(drizzle-orm@0.45.2)(rolldown@1.2.6)(srvx@0.12.7)(typescript@7.0.2)(vite@8.2.2)
   nuxt-drizzle:
-    specifier: 0.2.0-beta.2
-    version: 0.2.0-beta.2(@electric-sql/pglite@0.5.8)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2)(h3@1.15.11)(rolldown@1.2.6)(srvx@0.12.7)(vite@8.2.2)
+    specifier: 0.2.0
+    version: 0.2.0(@electric-sql/pglite@0.5.8)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2)(h3@1.15.11)(rolldown@1.2.6)(srvx@0.12.7)(vite@8.2.2)
   vue:
     specifier: ^3.5.42
     version: 3.5.42(typescript@7.0.2)
@@ -6258,16 +6258,16 @@ packages:
     resolution: {integrity: sha512-HxLK4bo+5jNsEETZp4w3tJblHOA9MCBY14IN9nZJJV8JDxt9yNIYxuBuLMjTAR5GFa3HL61+8VQDUrXv3/C8fw==}
     dev: false
 
-  /nitro-drizzle@0.3.0-beta.6(@electric-sql/pglite@0.5.8)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2)(h3@1.15.11)(rolldown@1.2.6)(srvx@0.12.7)(vite@8.2.2):
-    resolution: {integrity: sha512-JPeNj0+joZj1C8vPZO9iRkm5cc7Xc4aICFrFHmzxcofq16JjID4j9WHeagJFOj6lFJZiFghHZw6QE3YRqT41PA==}
+  /nitro-drizzle@0.3.0(@electric-sql/pglite@0.5.8)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2)(h3@1.15.11)(rolldown@1.2.6)(srvx@0.12.7)(vite@8.2.2):
+    resolution: {integrity: sha512-trsdvAAGQvQz3f41IDFbxdW9DisJEltli5JWxf9pI2yxL+HvOI5mEcAnSzhlc6ekSYh+FDt7BjGIn7XiGystHg==}
     peerDependencies:
-      '@cloudflare/workers-types': ^5.20260804.1
-      '@electric-sql/pglite': ^0.5.4
+      '@cloudflare/workers-types': ^5.20260826.1
+      '@electric-sql/pglite': ^0.5.8
       better-sqlite3: ^12.11.1
       drizzle-kit: ^0.31.10
       drizzle-orm: ^0.45.2
       h3: ^1.15.11
-      mysql2: ^3.23.2
+      mysql2: ^3.24.2
       postgres: ^3.4.9
       srvx: ^0.12.5
     peerDependenciesMeta:
@@ -6626,10 +6626,10 @@ packages:
       boolbase: 1.0.0
     dev: false
 
-  /nuxt-drizzle@0.2.0-beta.2(@electric-sql/pglite@0.5.8)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2)(h3@1.15.11)(rolldown@1.2.6)(srvx@0.12.7)(vite@8.2.2):
-    resolution: {integrity: sha512-k1MH7vzqwtyYd7cz7lgFTKyuCpBQYYd/LWAxKFdVptCoI5W1IJVcsDGNtz8ieSSbH379JlzgFcY42493+OIA6w==}
+  /nuxt-drizzle@0.2.0(@electric-sql/pglite@0.5.8)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2)(h3@1.15.11)(rolldown@1.2.6)(srvx@0.12.7)(vite@8.2.2):
+    resolution: {integrity: sha512-U0Pu9xho853bwG0NXtInboXX29Qe/j5F1vsshdL81EAykCn13OEReN652g5ACscqTDlGKfX3z93NwVA0rjz64w==}
     dependencies:
-      nitro-drizzle: 0.3.0-beta.6(@electric-sql/pglite@0.5.8)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2)(h3@1.15.11)(rolldown@1.2.6)(srvx@0.12.7)(vite@8.2.2)
+      nitro-drizzle: 0.3.0(@electric-sql/pglite@0.5.8)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2)(h3@1.15.11)(rolldown@1.2.6)(srvx@0.12.7)(vite@8.2.2)
       pathe: 2.0.3
     transitivePeerDependencies:
       - '@azure/app-configuration'
